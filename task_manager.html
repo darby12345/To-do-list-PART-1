@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Task Manager - To-Do List Manager</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="logo">
+      <img src="logo.png" alt="Logo">
+    </div>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="task_manager.html">Task Manager</a></li>
+    </ul>
+  </nav>
+
+  <section class="task-manager-container">
+    <h1>Manage Your Tasks</h1>
+
+    <form id="task-form">
+      <input type="text" id="task-input" placeholder="Enter your task here..." required>
+      <button type="submit" class="add-task-btn">Add Task</button>
+    </form>
+
+    <ul id="task-list" class="task-list">
+    </ul>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 To-Do List Manager. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
